@@ -11,5 +11,5 @@ validate_name() {
         echo "Good Job! You set your name to $NAME"
     fi
 }
-#123
+
 echo $(validate_name)
