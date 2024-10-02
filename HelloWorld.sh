@@ -2,7 +2,7 @@
 # This is a practice script for the Husky Coding Project's Git
 # and Command Line workshop. 
 
-NAME="HELLO WORLD" # Change This Variable to Your Name
+Rocky="HELLO WORLD" # Change This Variable to Your Name
 
 validate_name() {
     if [ "$NAME" = "HELLO WORLD" ]; then
@@ -11,5 +11,5 @@ validate_name() {
         echo "Good Job! You set your name to $NAME"
     fi
 }
-
+#123
 echo $(validate_name)
